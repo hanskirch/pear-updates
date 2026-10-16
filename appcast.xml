@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>PEAR</title>
+        <item>
+            <title>1.0.0</title>
+            <pubDate>Tue, 13 Oct 2026 13:48:59 -0600</pubDate>
+            <sparkle:version>2026101601</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# PEAR 1.0.0
+
+- Adds secure over-the-air update checks using Sparkle 2.
+- Adds **Help → Check for Updates…** and a menu-bar update action.
+- Preserves the optional menu-bar mode and unresolved-alert badge.
+- Keeps the stable PEAR Collector helper separate from routine PEAR interface updates.
+]]></description>
+            <enclosure url="https://github.com/hanskirch/pear-updates/releases/download/v1.0.0/PEAR-1.0.0.zip" length="29644035" type="application/octet-stream" sparkle:edSignature="/B7UcrUhNPWYfZDA2A84BiRIDgCUK9A/MFx7Pr6qP8kX6v3QwCcAMZeSoeegkZLx8aM7uDUauYNFuHSNRWWVDA=="/>
+        </item>
+    </channel>
+</rss>
