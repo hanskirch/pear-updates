@@ -3,6 +3,21 @@
     <channel>
         <title>PEAR</title>
         <item>
+            <title>1.0.3</title>
+            <pubDate>Wed, 21 Oct 2026 21:38:02 -0700</pubDate>
+            <sparkle:version>2026102102</sparkle:version>
+            <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# PEAR 1.0.3
+
+- Fixes the background health monitor crash reported as `CODESIGNING Code 4: Launch Constraint Violation`.
+- Automatically re-registers the LaunchAgent after PEAR updates so launchd uses the new signed executable hash.
+- Retains the fresh-install enrollment and protected-attachment fixes from PEAR 1.0.2.
+]]></description>
+            <enclosure url="https://github.com/hanskirch/pear-updates/releases/download/v1.0.3/PEAR-1.0.3.zip" length="29645192" type="application/octet-stream" sparkle:edSignature="IM+fiBqgnT3omOiabafCTfd33cTvvOeeaqCgQeQ2qU2HgtqGzyA+uLE/3ood9pAfgBysPxPnNMYnTs1QKn9MCA=="/>
+        </item>
+        <item>
             <title>1.0.2</title>
             <pubDate>Wed, 21 Oct 2026 21:31:05 -0700</pubDate>
             <sparkle:version>2026102101</sparkle:version>
