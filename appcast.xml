@@ -3,6 +3,21 @@
     <channel>
         <title>PEAR</title>
         <item>
+            <title>1.0.4</title>
+            <pubDate>Wed, 21 Oct 2026 22:59:01 -0700</pubDate>
+            <sparkle:version>2026102103</sparkle:version>
+            <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# PEAR 1.0.4
+
+- Fixes multi-user installations so both the parent and enrolled child macOS accounts can open PEAR.
+- Normalizes app-bundle permissions before signing and packaging.
+- Adds release checks that reject OTA archives containing owner-only files or folders.
+]]></description>
+            <enclosure url="https://github.com/hanskirch/pear-updates/releases/download/v1.0.4/PEAR-1.0.4.zip" length="29645572" type="application/octet-stream" sparkle:edSignature="Iaa1dwH3prWBAdCh4kIItvnN6QIonXlP11ohCTB24Hh5S7QmzWpnEZWwew/AnykHpwPh3mEBDhwgDr6XoPjFDw=="/>
+        </item>
+        <item>
             <title>1.0.3</title>
             <pubDate>Wed, 21 Oct 2026 21:38:02 -0700</pubDate>
             <sparkle:version>2026102102</sparkle:version>
